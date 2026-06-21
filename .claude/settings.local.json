@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \\\\ *)",
+      "Bash(pg_isready)",
+      "Bash(sudo -n true)",
+      "Bash(psql -U postgres -h localhost -c '\\\\du')",
+      "Bash(psql -c '\\\\conninfo')",
+      "Read(//etc/**)",
+      "Read(//usr/lib/postgresql/**)",
+      "Bash(docker info *)",
+      "Bash(systemctl list-unit-files *)",
+      "Bash(npm install *)",
+      "Bash(npm ls *)",
+      "Bash(npx prisma *)",
+      "Bash(docker exec *)",
+      "Bash(npx tsc *)",
+      "Bash(echo \"=== TYPECHECK EXIT: $? ===\")",
+      "Bash(npm run *)",
+      "Bash(grep -vE \"gstatic|Retrying|telemetry|opt-out|nextjs.org/tele|^$\")",
+      "Bash(tail -15 /tmp/build2.log 2>/dev/null | grep -vE \"gstatic|Retrying\")",
+      "Read(//tmp/**)"
+    ],
+    "additionalDirectories": [
+      "/home/elshan/AEporject/src/app/(shop)/products"
+    ]
+  }
+}
