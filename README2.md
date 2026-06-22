@@ -142,3 +142,14 @@ MCP turns Claude from:
 > "a code generator"
 into:
 > "a real engineering assistant that works with your system"
+
+
+
+```
+
+https://dribbble.com/ => site samples 
+nextjs.org/nights
+www.skills.sh/
+https://claude-farsi.ir/ 
+https://vigilsoc.org/  ==>> The Open Source AI SOC 
+```
